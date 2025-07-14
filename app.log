@@ -259,3 +259,20 @@
 2025-07-15 02:23:26 [[32minfo[39m]: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'feedback' AND TABLE_SCHEMA = 'sql12789974'
 2025-07-15 02:23:26 [[32minfo[39m]: Executing (default): SHOW INDEX FROM `feedback`
 2025-07-15 02:23:26 [[32minfo[39m]: Database connection has been established successfully.
+2025-07-15 02:34:54 [[32minfo[39m]: Server is running on port 3030
+2025-07-15 02:34:54 [[32minfo[39m]: Server is running on port 3030
+2025-07-15 02:34:54 [[32minfo[39m]: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'feedback' AND TABLE_SCHEMA = 'sql12789974'
+2025-07-15 02:34:54 [[32minfo[39m]: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'feedback' AND TABLE_SCHEMA = 'sql12789974'
+2025-07-15 02:34:54 [[32minfo[39m]: Executing (default): SHOW INDEX FROM `feedback`
+2025-07-15 02:34:54 [[32minfo[39m]: Executing (default): SHOW INDEX FROM `feedback`
+2025-07-15 02:34:54 [[32minfo[39m]: Database connection has been established successfully.
+2025-07-15 02:34:54 [[32minfo[39m]: Database connection has been established successfully.
+2025-07-15 02:35:05 [[32minfo[39m]: Server is running on port 3030
+2025-07-15 02:35:06 [[32minfo[39m]: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'feedback' AND TABLE_SCHEMA = 'sql12789974'
+2025-07-15 02:35:06 [[32minfo[39m]: Executing (default): SHOW INDEX FROM `feedback`
+2025-07-15 02:35:06 [[32minfo[39m]: Database connection has been established successfully.
+2025-07-15 02:35:13 [[32minfo[39m]: Executing (default): SELECT `sno`, `Name`, `Designation`, `Company`, `Comment` FROM `feedback` AS `feedback`;
+2025-07-15 02:39:46 [[32minfo[39m]: Server is running on port 3030
+2025-07-15 02:39:46 [[32minfo[39m]: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'feedback' AND TABLE_SCHEMA = 'sql12789974'
+2025-07-15 02:39:46 [[32minfo[39m]: Executing (default): SHOW INDEX FROM `feedback`
+2025-07-15 02:39:46 [[32minfo[39m]: Database connection has been established successfully.
