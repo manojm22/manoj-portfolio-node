@@ -1,6 +1,6 @@
 const router = require('express').Router();
 const FeedbackController = require('../controller/feedback.controller');
-
+const serverless = require('serverless-http');
 // Route to create feedback
 
 module.exports = (app) => {
@@ -18,4 +18,10 @@ module.exports = (app) => {
     router.delete('/feedback/:id', FeedbackController.deleteFeedbackById); */
     
     app.use('/api', router);
+
+    
+    module.exports.handler = serverless(app);
 }
+
+
+module.exports.handler = serverless(app);
