@@ -51,6 +51,7 @@ app.use((err, req, res, next) => {
 });
 
 const PORT = process.env.PORT || 3030;
+const hostname = process.env.HOST || 'localhost';
 
 require('./routes/feedback.routes')(app);
 app.listen(PORT, () => {
