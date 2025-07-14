@@ -1,0 +1,244 @@
+2025-07-15 00:38:24 [[32minfo[39m]: Server is running on port 3030
+2025-07-15 00:38:24 [[32minfo[39m]: Server is running on port 3030
+2025-07-15 00:38:33 [[32minfo[39m]: Server is running on port 3030
+2025-07-15 00:38:33 [[32minfo[39m]: Server is running on port 3030
+2025-07-15 00:38:43 [[31merror[39m]: SequelizeConnectionError: connect ETIMEDOUT
+    at ConnectionManager.connect (E:\programs\react portfolio\manoj-portfolio-node\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:102:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (E:\programs\react portfolio\manoj-portfolio-node\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:222:24)
+    at async E:\programs\react portfolio\manoj-portfolio-node\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:174:32
+    at async ConnectionManager.getConnection (E:\programs\react portfolio\manoj-portfolio-node\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:197:7)
+    at async E:\programs\react portfolio\manoj-portfolio-node\node_modules\sequelize\lib\sequelize.js:305:26
+    at async MySQLQueryInterface.tableExists (E:\programs\react portfolio\manoj-portfolio-node\node_modules\sequelize\lib\dialects\abstract\query-interface.js:102:17)
+    at async feedback.sync (E:\programs\react portfolio\manoj-portfolio-node\node_modules\sequelize\lib\model.js:939:21)
+    at async Sequelize.sync (E:\programs\react portfolio\manoj-portfolio-node\node_modules\sequelize\lib\sequelize.js:377:9)
+2025-07-15 00:38:43 [[31merror[39m]: SequelizeConnectionError: connect ETIMEDOUT
+    at ConnectionManager.connect (E:\programs\react portfolio\manoj-portfolio-node\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:102:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (E:\programs\react portfolio\manoj-portfolio-node\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:222:24)
+    at async E:\programs\react portfolio\manoj-portfolio-node\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:174:32
+    at async ConnectionManager.getConnection (E:\programs\react portfolio\manoj-portfolio-node\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:197:7)
+    at async E:\programs\react portfolio\manoj-portfolio-node\node_modules\sequelize\lib\sequelize.js:305:26
+    at async MySQLQueryInterface.tableExists (E:\programs\react portfolio\manoj-portfolio-node\node_modules\sequelize\lib\dialects\abstract\query-interface.js:102:17)
+    at async feedback.sync (E:\programs\react portfolio\manoj-portfolio-node\node_modules\sequelize\lib\model.js:939:21)
+    at async Sequelize.sync (E:\programs\react portfolio\manoj-portfolio-node\node_modules\sequelize\lib\sequelize.js:377:9)
+2025-07-15 00:42:04 [[32minfo[39m]: Server is running on port 3030
+2025-07-15 00:42:14 [[31merror[39m]: SequelizeConnectionError: connect ETIMEDOUT
+    at ConnectionManager.connect (E:\programs\react portfolio\manoj-portfolio-node\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:102:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (E:\programs\react portfolio\manoj-portfolio-node\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:222:24)
+    at async E:\programs\react portfolio\manoj-portfolio-node\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:174:32
+    at async ConnectionManager.getConnection (E:\programs\react portfolio\manoj-portfolio-node\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:197:7)
+    at async E:\programs\react portfolio\manoj-portfolio-node\node_modules\sequelize\lib\sequelize.js:305:26
+    at async MySQLQueryInterface.tableExists (E:\programs\react portfolio\manoj-portfolio-node\node_modules\sequelize\lib\dialects\abstract\query-interface.js:102:17)
+    at async feedback.sync (E:\programs\react portfolio\manoj-portfolio-node\node_modules\sequelize\lib\model.js:939:21)
+    at async Sequelize.sync (E:\programs\react portfolio\manoj-portfolio-node\node_modules\sequelize\lib\sequelize.js:377:9)
+2025-07-15 00:42:47 [[32minfo[39m]: Server is running on port 3030
+2025-07-15 00:42:47 [[32minfo[39m]: Server is running on port 3030
+2025-07-15 00:44:10 [[32minfo[39m]: Server is running on port 3030
+2025-07-15 00:44:10 [[32minfo[39m]: Server is running on port 3030
+2025-07-15 00:44:10 [[31merror[39m]: SequelizeConnectionError: Server does not support secure connection
+    at ConnectionManager.connect (E:\programs\react portfolio\manoj-portfolio-node\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:102:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (E:\programs\react portfolio\manoj-portfolio-node\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:222:24)
+    at async E:\programs\react portfolio\manoj-portfolio-node\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:174:32
+    at async ConnectionManager.getConnection (E:\programs\react portfolio\manoj-portfolio-node\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:197:7)
+    at async E:\programs\react portfolio\manoj-portfolio-node\node_modules\sequelize\lib\sequelize.js:305:26
+    at async MySQLQueryInterface.tableExists (E:\programs\react portfolio\manoj-portfolio-node\node_modules\sequelize\lib\dialects\abstract\query-interface.js:102:17)
+    at async feedback.sync (E:\programs\react portfolio\manoj-portfolio-node\node_modules\sequelize\lib\model.js:939:21)
+    at async Sequelize.sync (E:\programs\react portfolio\manoj-portfolio-node\node_modules\sequelize\lib\sequelize.js:377:9)
+2025-07-15 00:44:10 [[31merror[39m]: SequelizeConnectionError: Server does not support secure connection
+    at ConnectionManager.connect (E:\programs\react portfolio\manoj-portfolio-node\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:102:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (E:\programs\react portfolio\manoj-portfolio-node\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:222:24)
+    at async E:\programs\react portfolio\manoj-portfolio-node\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:174:32
+    at async ConnectionManager.getConnection (E:\programs\react portfolio\manoj-portfolio-node\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:197:7)
+    at async E:\programs\react portfolio\manoj-portfolio-node\node_modules\sequelize\lib\sequelize.js:305:26
+    at async MySQLQueryInterface.tableExists (E:\programs\react portfolio\manoj-portfolio-node\node_modules\sequelize\lib\dialects\abstract\query-interface.js:102:17)
+    at async feedback.sync (E:\programs\react portfolio\manoj-portfolio-node\node_modules\sequelize\lib\model.js:939:21)
+    at async Sequelize.sync (E:\programs\react portfolio\manoj-portfolio-node\node_modules\sequelize\lib\sequelize.js:377:9)
+2025-07-15 00:44:42 [[32minfo[39m]: Server is running on port 3030
+2025-07-15 00:44:42 [[32minfo[39m]: Server is running on port 3030
+2025-07-15 00:44:43 [[32minfo[39m]: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'feedback' AND TABLE_SCHEMA = 'sql12789974'
+2025-07-15 00:44:43 [[32minfo[39m]: Executing (default): SHOW INDEX FROM `feedback`
+2025-07-15 00:44:43 [[32minfo[39m]: Database connection has been established successfully.
+2025-07-15 00:44:43 [[32minfo[39m]: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'feedback' AND TABLE_SCHEMA = 'sql12789974'
+2025-07-15 00:44:43 [[32minfo[39m]: Executing (default): SHOW INDEX FROM `feedback`
+2025-07-15 00:44:43 [[32minfo[39m]: Database connection has been established successfully.
+2025-07-15 00:45:06 [[32minfo[39m]: Server is running on port 3030
+2025-07-15 00:45:06 [[32minfo[39m]: Server is running on port 3030
+2025-07-15 00:45:06 [[32minfo[39m]: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'feedback' AND TABLE_SCHEMA = 'sql12789974'
+2025-07-15 00:45:06 [[32minfo[39m]: Executing (default): SHOW INDEX FROM `feedback`
+2025-07-15 00:45:06 [[32minfo[39m]: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'feedback' AND TABLE_SCHEMA = 'sql12789974'
+2025-07-15 00:45:06 [[32minfo[39m]: Database connection has been established successfully.
+2025-07-15 00:45:06 [[32minfo[39m]: Executing (default): SHOW INDEX FROM `feedback`
+2025-07-15 00:45:06 [[32minfo[39m]: Database connection has been established successfully.
+2025-07-15 00:45:29 [[32minfo[39m]: Server is running on port 3030
+2025-07-15 00:45:29 [[32minfo[39m]: Server is running on port 3030
+2025-07-15 00:45:30 [[32minfo[39m]: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'feedback' AND TABLE_SCHEMA = 'sql12789974'
+2025-07-15 00:45:30 [[32minfo[39m]: Executing (default): SHOW INDEX FROM `feedback`
+2025-07-15 00:45:30 [[32minfo[39m]: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'feedback' AND TABLE_SCHEMA = 'sql12789974'
+2025-07-15 00:45:30 [[32minfo[39m]: Database connection has been established successfully.
+2025-07-15 00:45:30 [[32minfo[39m]: Executing (default): SHOW INDEX FROM `feedback`
+2025-07-15 00:45:30 [[32minfo[39m]: Database connection has been established successfully.
+2025-07-15 00:45:50 [[32minfo[39m]: Server is running on port 3030
+2025-07-15 00:45:50 [[32minfo[39m]: Server is running on port 3030
+2025-07-15 00:45:51 [[32minfo[39m]: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'feedback' AND TABLE_SCHEMA = 'sql12789974'
+2025-07-15 00:45:51 [[32minfo[39m]: Executing (default): SHOW INDEX FROM `feedback`
+2025-07-15 00:45:51 [[32minfo[39m]: Database connection has been established successfully.
+2025-07-15 00:45:51 [[32minfo[39m]: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'feedback' AND TABLE_SCHEMA = 'sql12789974'
+2025-07-15 00:45:51 [[32minfo[39m]: Executing (default): SHOW INDEX FROM `feedback`
+2025-07-15 00:45:51 [[32minfo[39m]: Database connection has been established successfully.
+2025-07-15 00:47:07 [[32minfo[39m]: Server is running on port 3030
+2025-07-15 00:47:07 [[32minfo[39m]: Server is running on port 3030
+2025-07-15 00:47:08 [[32minfo[39m]: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'feedback' AND TABLE_SCHEMA = 'sql12789974'
+2025-07-15 00:47:08 [[32minfo[39m]: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'feedback' AND TABLE_SCHEMA = 'sql12789974'
+2025-07-15 00:47:08 [[32minfo[39m]: Executing (default): SHOW INDEX FROM `feedback`
+2025-07-15 00:47:08 [[32minfo[39m]: Executing (default): SHOW INDEX FROM `feedback`
+2025-07-15 00:47:08 [[32minfo[39m]: Database connection has been established successfully.
+2025-07-15 00:47:08 [[32minfo[39m]: Database connection has been established successfully.
+2025-07-15 00:47:15 [[32minfo[39m]: Server is running on port 3030
+2025-07-15 00:47:15 [[32minfo[39m]: Server is running on port 3030
+2025-07-15 00:47:16 [[32minfo[39m]: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'feedback' AND TABLE_SCHEMA = 'sql12789974'
+2025-07-15 00:47:16 [[32minfo[39m]: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'feedback' AND TABLE_SCHEMA = 'sql12789974'
+2025-07-15 00:47:16 [[32minfo[39m]: Executing (default): SHOW INDEX FROM `feedback`
+2025-07-15 00:47:16 [[32minfo[39m]: Executing (default): SHOW INDEX FROM `feedback`
+2025-07-15 00:47:16 [[32minfo[39m]: Database connection has been established successfully.
+2025-07-15 00:47:16 [[32minfo[39m]: Database connection has been established successfully.
+2025-07-15 00:48:57 [[32minfo[39m]: Server is running on port 3030
+2025-07-15 00:48:57 [[32minfo[39m]: Server is running on port 3030
+2025-07-15 00:48:57 [[32minfo[39m]: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'feedback' AND TABLE_SCHEMA = 'sql12789974'
+2025-07-15 00:48:57 [[32minfo[39m]: Executing (default): SHOW INDEX FROM `feedback`
+2025-07-15 00:48:57 [[32minfo[39m]: Database connection has been established successfully.
+2025-07-15 00:48:57 [[32minfo[39m]: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'feedback' AND TABLE_SCHEMA = 'sql12789974'
+2025-07-15 00:48:57 [[32minfo[39m]: Executing (default): SHOW INDEX FROM `feedback`
+2025-07-15 00:48:57 [[32minfo[39m]: Database connection has been established successfully.
+2025-07-15 00:49:13 [[32minfo[39m]: Server is running on port 3030
+2025-07-15 00:49:13 [[32minfo[39m]: Server is running on port 3030
+2025-07-15 00:49:13 [[32minfo[39m]: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'feedback' AND TABLE_SCHEMA = 'sql12789974'
+2025-07-15 00:49:13 [[32minfo[39m]: Executing (default): SHOW INDEX FROM `feedback`
+2025-07-15 00:49:13 [[32minfo[39m]: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'feedback' AND TABLE_SCHEMA = 'sql12789974'
+2025-07-15 00:49:13 [[32minfo[39m]: Database connection has been established successfully.
+2025-07-15 00:49:13 [[32minfo[39m]: Executing (default): SHOW INDEX FROM `feedback`
+2025-07-15 00:49:13 [[32minfo[39m]: Database connection has been established successfully.
+2025-07-15 00:50:48 [[32minfo[39m]: Server is running on port 3030
+2025-07-15 00:50:48 [[32minfo[39m]: Server is running on port 3030
+2025-07-15 00:50:48 [[32minfo[39m]: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'feedback' AND TABLE_SCHEMA = 'sql12789974'
+2025-07-15 00:50:48 [[32minfo[39m]: Executing (default): SHOW INDEX FROM `feedback`
+2025-07-15 00:50:48 [[32minfo[39m]: Database connection has been established successfully.
+2025-07-15 00:50:48 [[32minfo[39m]: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'feedback' AND TABLE_SCHEMA = 'sql12789974'
+2025-07-15 00:50:48 [[32minfo[39m]: Executing (default): SHOW INDEX FROM `feedback`
+2025-07-15 00:50:48 [[32minfo[39m]: Database connection has been established successfully.
+2025-07-15 00:50:58 [[32minfo[39m]: Server is running on port 3030
+2025-07-15 00:50:58 [[32minfo[39m]: Server is running on port 3030
+2025-07-15 00:50:58 [[32minfo[39m]: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'feedback' AND TABLE_SCHEMA = 'sql12789974'
+2025-07-15 00:50:58 [[32minfo[39m]: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'feedback' AND TABLE_SCHEMA = 'sql12789974'
+2025-07-15 00:50:58 [[32minfo[39m]: Executing (default): SHOW INDEX FROM `feedback`
+2025-07-15 00:50:58 [[32minfo[39m]: Executing (default): SHOW INDEX FROM `feedback`
+2025-07-15 00:50:58 [[32minfo[39m]: Database connection has been established successfully.
+2025-07-15 00:50:58 [[32minfo[39m]: Database connection has been established successfully.
+2025-07-15 00:52:42 [[32minfo[39m]: Server is running on port 3030
+2025-07-15 00:52:42 [[32minfo[39m]: Server is running on port 3030
+2025-07-15 00:52:43 [[32minfo[39m]: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'feedback' AND TABLE_SCHEMA = 'sql12789974'
+2025-07-15 00:52:43 [[32minfo[39m]: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'feedback' AND TABLE_SCHEMA = 'sql12789974'
+2025-07-15 00:52:43 [[32minfo[39m]: Executing (default): SHOW INDEX FROM `feedback`
+2025-07-15 00:52:43 [[32minfo[39m]: Executing (default): SHOW INDEX FROM `feedback`
+2025-07-15 00:52:43 [[32minfo[39m]: Database connection has been established successfully.
+2025-07-15 00:52:43 [[32minfo[39m]: Database connection has been established successfully.
+2025-07-15 00:53:16 [[32minfo[39m]: Server is running on port 3030
+2025-07-15 00:53:16 [[32minfo[39m]: Server is running on port 3030
+2025-07-15 00:53:16 [[32minfo[39m]: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'feedback' AND TABLE_SCHEMA = 'sql12789974'
+2025-07-15 00:53:16 [[32minfo[39m]: Executing (default): SHOW INDEX FROM `feedback`
+2025-07-15 00:53:16 [[32minfo[39m]: Database connection has been established successfully.
+2025-07-15 00:53:16 [[32minfo[39m]: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'feedback' AND TABLE_SCHEMA = 'sql12789974'
+2025-07-15 00:53:16 [[32minfo[39m]: Executing (default): SHOW INDEX FROM `feedback`
+2025-07-15 00:53:16 [[32minfo[39m]: Database connection has been established successfully.
+2025-07-15 00:53:33 [[32minfo[39m]: Server is running on port 3030
+2025-07-15 00:53:33 [[32minfo[39m]: Server is running on port 3030
+2025-07-15 00:53:33 [[32minfo[39m]: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'feedback' AND TABLE_SCHEMA = 'sql12789974'
+2025-07-15 00:53:33 [[32minfo[39m]: Executing (default): SHOW INDEX FROM `feedback`
+2025-07-15 00:53:33 [[32minfo[39m]: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'feedback' AND TABLE_SCHEMA = 'sql12789974'
+2025-07-15 00:53:33 [[32minfo[39m]: Database connection has been established successfully.
+2025-07-15 00:53:33 [[32minfo[39m]: Executing (default): SHOW INDEX FROM `feedback`
+2025-07-15 00:53:33 [[32minfo[39m]: Database connection has been established successfully.
+2025-07-15 00:53:57 [[32minfo[39m]: Server is running on port 3030
+2025-07-15 00:53:57 [[32minfo[39m]: Server is running on port 3030
+2025-07-15 00:53:58 [[32minfo[39m]: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'feedback' AND TABLE_SCHEMA = 'sql12789974'
+2025-07-15 00:53:58 [[32minfo[39m]: Executing (default): SHOW INDEX FROM `feedback`
+2025-07-15 00:53:58 [[32minfo[39m]: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'feedback' AND TABLE_SCHEMA = 'sql12789974'
+2025-07-15 00:53:58 [[32minfo[39m]: Database connection has been established successfully.
+2025-07-15 00:53:58 [[32minfo[39m]: Executing (default): SHOW INDEX FROM `feedback`
+2025-07-15 00:53:58 [[32minfo[39m]: Database connection has been established successfully.
+2025-07-15 00:54:50 [[32minfo[39m]: Server is running on port 3030
+2025-07-15 00:54:50 [[32minfo[39m]: Server is running on port 3030
+2025-07-15 00:54:51 [[32minfo[39m]: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'feedback' AND TABLE_SCHEMA = 'sql12789974'
+2025-07-15 00:54:51 [[32minfo[39m]: Executing (default): SHOW INDEX FROM `feedback`
+2025-07-15 00:54:51 [[32minfo[39m]: Database connection has been established successfully.
+2025-07-15 00:54:51 [[32minfo[39m]: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'feedback' AND TABLE_SCHEMA = 'sql12789974'
+2025-07-15 00:54:51 [[32minfo[39m]: Executing (default): SHOW INDEX FROM `feedback`
+2025-07-15 00:54:51 [[32minfo[39m]: Database connection has been established successfully.
+2025-07-15 00:55:20 [[32minfo[39m]: Server is running on port 3030
+2025-07-15 00:55:20 [[32minfo[39m]: Server is running on port 3030
+2025-07-15 00:55:20 [[32minfo[39m]: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'feedback' AND TABLE_SCHEMA = 'sql12789974'
+2025-07-15 00:55:20 [[32minfo[39m]: Executing (default): SHOW INDEX FROM `feedback`
+2025-07-15 00:55:20 [[32minfo[39m]: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'feedback' AND TABLE_SCHEMA = 'sql12789974'
+2025-07-15 00:55:20 [[32minfo[39m]: Database connection has been established successfully.
+2025-07-15 00:55:20 [[32minfo[39m]: Executing (default): SHOW INDEX FROM `feedback`
+2025-07-15 00:55:20 [[32minfo[39m]: Database connection has been established successfully.
+2025-07-15 00:56:14 [[32minfo[39m]: Server is running on port 3030
+2025-07-15 00:56:14 [[32minfo[39m]: Server is running on port 3030
+2025-07-15 00:56:15 [[32minfo[39m]: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'feedback' AND TABLE_SCHEMA = 'sql12789974'
+2025-07-15 00:56:15 [[32minfo[39m]: Executing (default): SHOW INDEX FROM `feedback`
+2025-07-15 00:56:15 [[32minfo[39m]: Database connection has been established successfully.
+2025-07-15 00:56:15 [[32minfo[39m]: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'feedback' AND TABLE_SCHEMA = 'sql12789974'
+2025-07-15 00:56:15 [[32minfo[39m]: Executing (default): SHOW INDEX FROM `feedback`
+2025-07-15 00:56:15 [[32minfo[39m]: Database connection has been established successfully.
+2025-07-15 00:56:55 [[32minfo[39m]: Server is running on port 3030
+2025-07-15 00:56:55 [[32minfo[39m]: Server is running on port 3030
+2025-07-15 00:56:55 [[32minfo[39m]: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'feedback' AND TABLE_SCHEMA = 'sql12789974'
+2025-07-15 00:56:55 [[32minfo[39m]: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'feedback' AND TABLE_SCHEMA = 'sql12789974'
+2025-07-15 00:56:55 [[32minfo[39m]: Executing (default): SHOW INDEX FROM `feedback`
+2025-07-15 00:56:55 [[32minfo[39m]: Executing (default): SHOW INDEX FROM `feedback`
+2025-07-15 00:56:55 [[32minfo[39m]: Database connection has been established successfully.
+2025-07-15 00:56:55 [[32minfo[39m]: Database connection has been established successfully.
+2025-07-15 00:57:17 [[32minfo[39m]: Server is running on port 3030
+2025-07-15 00:57:17 [[32minfo[39m]: Server is running on port 3030
+2025-07-15 00:57:17 [[32minfo[39m]: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'feedback' AND TABLE_SCHEMA = 'sql12789974'
+2025-07-15 00:57:17 [[32minfo[39m]: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'feedback' AND TABLE_SCHEMA = 'sql12789974'
+2025-07-15 00:57:17 [[32minfo[39m]: Executing (default): SHOW INDEX FROM `feedback`
+2025-07-15 00:57:17 [[32minfo[39m]: Executing (default): SHOW INDEX FROM `feedback`
+2025-07-15 00:57:17 [[32minfo[39m]: Database connection has been established successfully.
+2025-07-15 00:57:17 [[32minfo[39m]: Database connection has been established successfully.
+2025-07-15 00:57:48 [[32minfo[39m]: Server is running on port 3030
+2025-07-15 00:57:48 [[32minfo[39m]: Server is running on port 3030
+2025-07-15 00:57:48 [[32minfo[39m]: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'feedback' AND TABLE_SCHEMA = 'sql12789974'
+2025-07-15 00:57:48 [[32minfo[39m]: Executing (default): SHOW INDEX FROM `feedback`
+2025-07-15 00:57:49 [[32minfo[39m]: Database connection has been established successfully.
+2025-07-15 00:57:49 [[32minfo[39m]: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'feedback' AND TABLE_SCHEMA = 'sql12789974'
+2025-07-15 00:57:49 [[32minfo[39m]: Executing (default): SHOW INDEX FROM `feedback`
+2025-07-15 00:57:49 [[32minfo[39m]: Database connection has been established successfully.
+2025-07-15 00:58:34 [[32minfo[39m]: Server is running on port 3030
+2025-07-15 00:58:34 [[32minfo[39m]: Server is running on port 3030
+2025-07-15 00:58:35 [[32minfo[39m]: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'feedback' AND TABLE_SCHEMA = 'sql12789974'
+2025-07-15 00:58:35 [[32minfo[39m]: Executing (default): SHOW INDEX FROM `feedback`
+2025-07-15 00:58:35 [[32minfo[39m]: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'feedback' AND TABLE_SCHEMA = 'sql12789974'
+2025-07-15 00:58:35 [[32minfo[39m]: Database connection has been established successfully.
+2025-07-15 00:58:35 [[32minfo[39m]: Executing (default): SHOW INDEX FROM `feedback`
+2025-07-15 00:58:35 [[32minfo[39m]: Database connection has been established successfully.
+2025-07-15 00:59:01 [[32minfo[39m]: Server is running on port 3030
+2025-07-15 00:59:01 [[32minfo[39m]: Server is running on port 3030
+2025-07-15 00:59:02 [[32minfo[39m]: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'feedback' AND TABLE_SCHEMA = 'sql12789974'
+2025-07-15 00:59:02 [[32minfo[39m]: Executing (default): SHOW INDEX FROM `feedback`
+2025-07-15 00:59:02 [[32minfo[39m]: Database connection has been established successfully.
+2025-07-15 00:59:02 [[32minfo[39m]: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'feedback' AND TABLE_SCHEMA = 'sql12789974'
+2025-07-15 00:59:02 [[32minfo[39m]: Executing (default): SHOW INDEX FROM `feedback`
+2025-07-15 00:59:02 [[32minfo[39m]: Database connection has been established successfully.
+2025-07-15 01:05:55 [[32minfo[39m]: Server is running on port 3030
+2025-07-15 01:05:55 [[32minfo[39m]: Server is running on port 3030
+2025-07-15 01:05:55 [[32minfo[39m]: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'feedback' AND TABLE_SCHEMA = 'sql12789974'
+2025-07-15 01:05:55 [[32minfo[39m]: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'feedback' AND TABLE_SCHEMA = 'sql12789974'
+2025-07-15 01:05:56 [[32minfo[39m]: Executing (default): SHOW INDEX FROM `feedback`
+2025-07-15 01:05:56 [[32minfo[39m]: Executing (default): SHOW INDEX FROM `feedback`
+2025-07-15 01:05:56 [[32minfo[39m]: Database connection has been established successfully.
+2025-07-15 01:05:56 [[32minfo[39m]: Database connection has been established successfully.
+2025-07-15 01:06:00 [[32minfo[39m]: Executing (default): SELECT `sno`, `Name`, `Designation`, `Company`, `Comment` FROM `feedback` AS `feedback`;

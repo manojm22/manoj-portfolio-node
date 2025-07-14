@@ -1,0 +1,49 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "Manoj Portfolio Node API",
+    "version": "1.0.0",
+    "description": "API documentation for Manoj's portfolio Node.js backend."
+  },
+  "consumes": ["application/json"],
+  "produces": ["application/json"],
+  "paths": {
+    "/": {
+      "get": {
+        "summary": "Root endpoint",
+        "description": "Returns a welcome message.",
+        "responses": {
+          "200": {
+            "description": "A successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "message": { "type": "string" },
+                    "status": { "type": "string" }
+                  }
+                },
+                "example": {
+                  "message": "Welcome to the API",
+                  "status": "success"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/feedback": {
+      "get": {
+        "summary": "Get all feedback entries",
+        "description": "Returns a list of all feedback entries.",
+        "responses": {
+          "200": {
+            "description": "A list of feedback entries."
+          }
+        }
+      }
+    }
+  }
+}
