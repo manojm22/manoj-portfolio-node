@@ -9,8 +9,8 @@ const logger = require('./config/logger');
 const swaggerDocument = require('./swagger.json');
 
 const corsOptions = {
-  origin: '*',  
-    methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
+  origin: '*',
+  methods: 'GET,HEAD,PUT,PATCH,POST,DELETE'
 };
 
 dotenv.config({path: './.env'});
@@ -37,9 +37,9 @@ app.use((req, res, next) => {
 })
 
 app.use((req, res, next) => {
-    res.setHeader('Access-Control-Allow-Origin','Content-Security-Policy', "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self' data:; connect-src 'self' ws:; frame-ancestors 'none';");
+    res.setHeader('Content-Security-Policy', "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self' data:; connect-src 'self' ws:; frame-ancestors 'none';");
     next();
-})
+});
 
 app.use((err, req, res, next) => {
   logger.error(err.stack);
