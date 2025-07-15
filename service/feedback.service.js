@@ -20,7 +20,7 @@ exports.createFeedback = async (req, res) => {
     try {
         const { Name, Designation, Company, Comment } = req.body;
 
-        if (!Name || !Designation || !Company, Comment) {
+        if (!Name || !Designation || !Company || !Comment) {
             return res.status(400).json({ message: 'Name, Designation, Company, Comment are required' });
         }
 
