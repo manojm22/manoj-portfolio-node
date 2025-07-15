@@ -4,7 +4,7 @@ const FeedbackController = require('../controller/feedback.controller');
 // Route to create feedback
 
 module.exports = (app) => {
-    
+    router.post('/feedback', FeedbackController.createFeedback);
     // Route to get all feedback
     router.get('/feedback', FeedbackController.getAllFeedback);
     /* 

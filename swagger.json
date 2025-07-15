@@ -43,6 +43,36 @@
             "description": "A list of feedback entries."
           }
         }
+      },
+      "post": {
+        "summary": "Create feedback entry",
+        "description": "Creates a new feedback entry.",
+        "parameters": [
+          {
+            "in": "body",
+            "name": "feedback",
+            "description": "Feedback object to create",
+            "required": true,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "Name": { "type": "string" },
+                "Designation": { "type": "string" },
+                "Company": { "type": "string" },
+                "Comment": { "type": "string" }
+              },
+              "required": ["Name", "Designation", "Company", "Comment"]
+            }
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "Feedback created successfully."
+          },
+          "400": {
+            "description": "Invalid input."
+          }
+        }
       }
     }
   }
