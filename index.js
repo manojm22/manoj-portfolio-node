@@ -7,7 +7,6 @@ const cors = require('cors');
 const db = require('./model/index');
 const logger = require('./config/logger');
 const swaggerDocument = require('./swagger.json');
-const serverless = require('serverless-http');
 
 const corsOptions = {
   origin: '*',  
@@ -53,7 +52,6 @@ app.use((err, req, res, next) => {
 
 const PORT = process.env.PORT || 3030;
 const hostname = process.env.HOST || 'localhost';
-module.exports.handler = serverless(app);
 require('./routes/feedback.routes')(app);
 app.listen(PORT, () => {
   logger.info(`Server is running on port ${PORT}`);
